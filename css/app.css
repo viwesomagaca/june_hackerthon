@@ -3,20 +3,35 @@
 /* Demo Styles */
 body {
   padding: 2rem 1rem;
-  color: white;
   background-image: url("background.jpg");
-  background-attachment: fixed;
+  background-attachment:inherit;
   background-repeat: no-repeat;
+  background-size: 100%;
+  font-size: 125%;
+  color: white;
 }
 
 h2{
-    font-family: "Dancing Script", cursive;
+    font-family:'Kaushan Script', cursive;
     text-align: center;
-    font-size: 75px;
+    font-size: 350%;
     margin-top: 1em;
 }
+
 p{
     text-align: center;
+}
+
+.shadow {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.shadow p {
+
+}
+
+.heading {
+    color: black;
 }
 
 .docs-example-orbit-slide {
@@ -37,5 +52,12 @@ p{
 
   .orbit-slide:nth-of-type(4) & {
     background: lightseagreen;
+  }
+}
+@media only screen and (max-width: 500px){
+    body {
+      padding: 2rem 1rem;
+      background-image: url("background.jpg");
+      background-size: cover;
   }
 }
