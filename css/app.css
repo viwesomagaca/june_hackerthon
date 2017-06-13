@@ -1,8 +1,22 @@
-$white: #fefefe;
+/*$white: #fefefe;*/
 
 /* Demo Styles */
 body {
   padding: 2rem 1rem;
+  color: white;
+  background-image: url("background.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+h2{
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    font-size: 75px;
+    margin-top: 1em;
+}
+p{
+    text-align: center;
 }
 
 .docs-example-orbit-slide {
